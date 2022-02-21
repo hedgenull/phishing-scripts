@@ -4,7 +4,6 @@ fake_message = input("Enter fake message: ")
 fake_amount = input("Enter fake amount: ")
 fake_order_number = input("Enter fake order number: ")
 fake_code = input("Enter fake code: ")
-
 fake_link = input(
     "Enter malicious URL to go to (format: http(s)://example.com/): ")
 
