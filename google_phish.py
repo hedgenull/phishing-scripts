@@ -1,12 +1,10 @@
 name = input("Enter target's first name: ")
 email = input("Enter target's email address: ")
-
 invite_name = input("Enter fake name for email invite: ")
 invite_email = input("Enter fake email for email invite: ")
-
 chat_name = input("Enter fake chat name: ")
 fake_link = input(
-    "Enter malicious URL to go to ( format: http(s)://example.com/ ): ")
+    "Enter malicious URL to go to (format: http(s)://example.com/): ")
 
 with open("google_invite.html", "r") as template:
     content = template.read()
