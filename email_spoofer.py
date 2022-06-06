@@ -36,6 +36,7 @@ def send_message(smtp_server, port, from_address, to_address, msg_file):
 
     s.close()
 
+
 def main(args):
     smtp_server = args[1]
     port = args[2]
@@ -43,6 +44,7 @@ def main(args):
     to_address = args[4]
     message = args[5]
     send_message(smtp_server, port, from_address, to_address, message)
+
 
 if __name__ == "__main__":
     main(sys.argv)
